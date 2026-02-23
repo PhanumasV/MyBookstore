@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MyBookStore</string>
+
+    <!-- Book Categories -->
+    <string name="cookbooks">Cookbooks</string>
+    <string name="humour">Humour</string>
+    <string name="japanese_fiction">Japanese Fiction\</string>
+    <string name="manga">Manga</string>
+
+
+    <!-- Cart & Total Price -->
+    <string name="see_cart">See Cart</string>
+    <string name="total_price">Total: %s</string>
+    <string name="add_this_item">Add This Item</string>
+    <string name="clear_cart">Clear Cart</string>
+    <string name="empty_cart_message">Your cart is empty.</string>
+
+    <!-- DetailActivity Strings -->
+    <string name="quantity_hint">Enter Quantity</string>
+    <string name="book_image_desc">Cover image of the book</string>
+
+    <string name="author_label">Author: %s</string>
+</resources>

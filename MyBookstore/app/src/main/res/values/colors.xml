@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Basic Colors -->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+
+    <!-- Primary Color: Accent color for your brand -->
+    <color name="primaryColor">#6200EE</color> <!-- Purple -->
+    <color name="primaryColorDark">#3700B3</color> <!-- Darker variant of Primary color -->
+
+    <!-- Secondary Colors -->
+    <color name="secondaryColor">#03DAC5</color> <!-- Teal for accents -->
+    <color name="secondaryColorDark">#018786</color> <!-- Darker variant of secondary color -->
+
+    <!-- Background Colors -->
+    <color name="backgroundLight">#FFFFFF</color> <!-- White background for light mode -->
+    <color name="backgroundDark">#121212</color> <!-- Dark background for night mode -->
+
+    <!-- Surface Colors (used for cards, buttons, etc.) -->
+    <color name="surfaceLight">#FFFFFF</color> <!-- Light background for cards, buttons, etc. -->
+    <color name="surfaceDark">#333333</color> <!-- Dark background for surface elements in night mode -->
+
+    <!-- Text Colors -->
+    <color name="textPrimaryLight">#000000</color> <!-- Text color for light mode (black) -->
+    <color name="textPrimaryDark">#FFFFFF</color> <!-- Text color for dark mode (white) -->
+    <color name="textSecondaryLight">#616161</color> <!-- Secondary text color for light mode -->
+    <color name="textSecondaryDark">#B0B0B0</color> <!-- Secondary text color for dark mode -->
+
+    <!-- Button Colors -->
+    <color name="buttonBackgroundLight">#6200EE</color> <!-- Button background for light mode -->
+    <color name="buttonBackgroundDark">#3700B3</color> <!-- Button background for dark mode -->
+    <color name="buttonTextColorLight">#FFFFFF</color> <!-- Button text color for light mode -->
+    <color name="buttonTextColorDark">#FFFFFF</color> <!-- Button text color for dark mode -->
+
+    <!-- Dark color for Navigation Bar -->
+    <color name="navigationBarDark">#212121</color>  <!-- Dark grey color -->
+
+    <!-- Divider and Border Colors -->
+    <color name="dividerLight">#BDBDBD</color> <!-- Light divider line -->
+    <color name="dividerDark">#444444</color> <!-- Dark divider line -->
+</resources>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:fitsSystemWindows="true">
+
+    <!-- ListView for Book List -->
+    <ListView
+        android:id="@+id/book_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="5dp"
+        android:layout_weight="1"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="1dp"
+        android:paddingBottom="8dp"/>
+
+    <!-- Bottom Section: Total Price and See Cart Button -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="8dp">
+
+        <!-- Total Price Text -->
+        <TextView
+            android:id="@+id/total_price"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Total: $0.00"
+            android:textSize="18sp"
+            android:textColor="?android:textColorPrimary"
+            android:textStyle="bold"
+            android:paddingStart="8dp"/>
+
+        <!-- See Cart Button -->
+        <Button
+            android:id="@+id/see_cart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="See Cart"
+            android:textAllCaps="true"
+            android:padding="12dp"
+            android:backgroundTint="?android:attr/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"/>
+    </LinearLayout>
+
+</LinearLayout>

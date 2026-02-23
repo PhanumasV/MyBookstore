@@ -1,0 +1,49 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Day Mode Theme -->
+    <style name="Theme.MyBookStore" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary color for your app -->
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryVariant">@color/primaryColorDark</item>
+
+        <!-- Window background color -->
+        <item name="android:windowBackground">@color/backgroundLight</item>
+
+        <!-- Text Colors -->
+        <item name="android:textColorPrimary">@color/textPrimaryLight</item>
+        <item name="android:textColorSecondary">@color/textSecondaryLight</item>
+
+        <!-- Toolbar text color -->
+        <item name="colorOnPrimary">@android:color/black</item>
+
+        <!-- Surface and background for UI components -->
+        <item name="colorSurface">@color/surfaceLight</item>
+        <item name="colorOnSurface">@android:color/black</item>
+        <item name="colorBackgroundFloating">@color/surfaceLight</item>
+
+        <!-- Button and Floating Action Button Styles -->
+        <item name="colorButtonNormal">@color/buttonBackgroundLight</item>
+
+
+        <!-- Status Bar and Navigation Bar Colors -->
+        <item name="android:statusBarColor">@color/primaryColor</item>
+        <item name="android:navigationBarColor">@color/navigationBarDark</item>  <!-- Dark color for Navigation Bar -->
+
+        <!-- TextInput (EditText) Styling -->
+        <item name="colorControlNormal">@color/primaryColor</item>
+        <item name="colorControlActivated">@color/secondaryColor</item>
+        <item name="colorControlHighlight">@color/secondaryColor</item>
+
+        <item name="colorOnSecondary">@android:color/white</item> <!-- For icons and text on secondary elements like buttons -->
+
+
+        <!-- Links -->
+        <item name="android:textColorLink">@color/primaryColor</item>
+
+        <!-- Divider Color -->
+        <item name="android:divider">@color/dividerLight</item>
+        <item name="android:dividerHeight">1dp</item>
+
+        <!-- Dialog Background -->
+        <item name="android:colorBackground">@color/surfaceLight</item>
+    </style>
+</resources>

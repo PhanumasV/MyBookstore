@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:fillViewport="true"
+    android:fitsSystemWindows="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Book Image (Centered) -->
+        <ImageView
+            android:id="@+id/book_image"
+            android:layout_width="250dp"
+            android:layout_height="350dp"
+            android:scaleType="fitCenter"
+            android:contentDescription="@string/book_image_desc"
+            android:src="@drawable/default_image"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Book Title -->
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book Title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="?android:textColorPrimary"
+            android:layout_marginTop="8dp"
+            android:paddingStart="12dp"
+            android:paddingEnd="12dp"/>
+
+        <!-- Book Description -->
+        <TextView
+            android:id="@+id/book_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Book description goes here..."
+            android:textSize="16sp"
+            android:textColor="?android:textColorSecondary"
+            android:layout_marginTop="8dp"
+            android:padding="8dp"/>
+
+        <!-- Author and Price -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            android:padding="8dp">
+
+            <!-- Book Author -->
+            <TextView
+                android:id="@+id/book_author"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Author Name"
+                android:textSize="16sp"
+                android:textStyle="italic"/>
+
+            <!-- Book Price -->
+            <TextView
+                android:id="@+id/book_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="$0.00"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColor="?android:attr/colorPrimary"
+                android:gravity="end"/>
+        </LinearLayout>
+
+        <!-- Quantity Input -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_marginTop="16dp"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quantity:"
+                android:textSize="16sp"
+                android:textColor="?android:textColorPrimary"
+                android:layout_marginEnd="8dp"/>
+
+            <EditText
+                android:id="@+id/quantity_input"
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:inputType="number"
+                android:hint="@string/quantity_hint"
+                android:textSize="16sp"
+                android:gravity="center"
+                android:background="@android:color/white"
+                android:elevation="2dp"
+                android:textColor="@color/black"
+                android:textColorHint="@color/textSecondaryDark"/>
+
+
+        </LinearLayout>
+
+        <!-- Add to Cart Button -->
+        <Button
+            android:id="@+id/add_item_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_this_item"
+            android:backgroundTint="?android:attr/colorPrimary"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:padding="12dp"
+            android:layout_gravity="center_horizontal"/>
+    </LinearLayout>
+
+</ScrollView>
